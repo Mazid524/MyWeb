@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <h3>Contact Information</h3>
+    <ul>
+      <li>Email: amazid@upei.ca</li>
+      <li>Phone: +1(437)223-1672</li>
+    </ul>
+    <div class="container">
+      <form action="mailto:amazid@upei.ca" method="post" enctype="text/plain">
+
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+        <label for="Province">Province</label>
+        <select id="Province" name="Province">
+          <option value="NL">NL</option>
+          <option value="PE">PE</option>
+          <option value="NS">NS</option>
+          <option value="NB">NB</option>
+          <option value="QC">QC</option>
+          <option value="ON">ON</option>
+          <option value="MB">MB</option>
+          <option value="SK">SK</option>
+          <option value="AB">AB</option>
+          <option value="BC">BC</option>
+          <option value="YT">YT</option>
+          <option value="NT">NT</option>
+          <option value="NU">NU</option>
+
+        </select>
+        <label for="country">Country</label>
+        <select id="country" name="country">
+          <option value="canada">Canada</option>
+        </select>
+
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+        <input type="submit" value="Submit">
+
+      </form>
+    </div>
+
+  </body>
+</html>
